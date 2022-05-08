@@ -1,23 +1,41 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { HttpClientModule } from "@angular/common/http";
+import {
+  NgModule
+} from '@angular/core';
+import {
+  BrowserModule
+} from '@angular/platform-browser';
+import {
+  HttpClientModule
+} from "@angular/common/http";
 
 
-import { AppComponent } from './app.component';
-import { SharedModule } from './shared/shared.module';
-import { GifsModule } from './gifs/gifs.module';
+import {
+  AppComponent
+} from './app.component';
+import {
+  GifsPageModuleModule
+} from './Gifs-Page/gifs-page-module.module';
+import {
+  PaisesAppModule
+} from './Paises-App/paises-app.module';
+import {
+  AppRoutingModule
+} from './app-routing.module';
+import { IndexPageComponent } from './index-page.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    IndexPageComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
-    SharedModule,
-    GifsModule
+    AppRoutingModule,
+    GifsPageModuleModule,
+    PaisesAppModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
