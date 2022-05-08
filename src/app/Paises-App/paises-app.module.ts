@@ -28,7 +28,7 @@ import { PaisesRoutingModule } from './Paises-routing.module';
     PaisModule,
     SharedModule,
     PaisesMainpageComponent,
-    PaisesRoutingModule,
+    PaisesRoutingModule
   ]
 })
 export class PaisesAppModule { }
