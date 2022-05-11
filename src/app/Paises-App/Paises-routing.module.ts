@@ -26,8 +26,16 @@ const routes: Routes = [{
       component: PorRegionComponent
     },
     {
+      path: 'region/:id',
+      component: VerPaisComponent
+    },
+    {
       path: 'capital',
       component: PorCapitalComponent
+    },
+    {
+      path: 'capital/:id',
+      component: VerPaisComponent
     },
     {
       path: 'pais/:id',
