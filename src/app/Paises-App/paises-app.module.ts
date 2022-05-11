@@ -22,7 +22,8 @@ import { PaisesRoutingModule } from './Paises-routing.module';
   ],
   imports: [
     CommonModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SharedModule
   ],
   exports: [
     PaisModule,

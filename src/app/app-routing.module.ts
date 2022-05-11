@@ -16,31 +16,6 @@ import {
 } from './Paises-App/paises-mainpage.component';
 
 
-
-// const routes: Routes = [{
-//     path: '',
-//     component: PorPaisComponent,
-//     pathMatch: 'full'
-//   },
-//   {
-//     path: 'region',
-//     component: PorRegionComponent
-//   },
-//   {
-//     path: 'capital',
-//     component: PorCapitalComponent
-//   },
-//   {
-//     path: 'pais/:id',
-//     component: VerPaisComponent
-//   },
-//   {
-//     path: '**',
-//     redirectTo: ''
-//   }
-// ];
-
-
 const routes: Routes = [{
   path: '',
   component: IndexPageComponent,
